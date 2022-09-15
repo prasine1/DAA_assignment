@@ -1,6 +1,6 @@
-all : submission
+all : assignment
 
-submission.o : submission.cpp
-	g++ -c submission.cpp
+assignment.o : assignment.cpp
+	g++ -c assignment.cpp
 
-submission : submission.o
+assignment : assignment.o
