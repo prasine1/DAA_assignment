@@ -1,9 +1,9 @@
 all : submission
 
-submission : submission.o
-	g++ -o submission submission.o
+submission : assignment.o
+	g++ -o submission assignment.o
     
-submission.o : assignment.cpp
+assignment.o : assignment.cpp
 	g++ -c assignment.cpp
 
 
