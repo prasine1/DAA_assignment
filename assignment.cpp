@@ -4,6 +4,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(int argc, char** argv){
+    //1
     ifstream inputFile;
     ofstream outFile;
     string outputfile=argv[2];
